@@ -1,0 +1,55 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255);
+  background-color: #242424;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+span{
+  position: absolute;
+  top: 3rem;
+  font-size: 2rem;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.search input {
+  width: 300px;
+  height: 30px;
+}
+
+.search button {
+  height: 30px;
+  border: none;
+  padding: 0 1rem;
+}
+
+.search ul {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  list-style: none;
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.search li {
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+
+.search li:hover {
+  background-color: grey;
+  color: white;
+}
